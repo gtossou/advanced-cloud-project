@@ -34,7 +34,7 @@ static-code-qa = [
     "Flake8-pyproject",
     "radon",
 ]
-# Installing dev depenendencies in your virtual env makes it so that during development VS Code can 
+# Installing dev depenendencies in your virtual env makes it so that during development VS Code can
 # - surface linting errors
 # - automatically apply formatting
 # - show enhanced autocompletion for stubs libraries
@@ -43,7 +43,7 @@ dev = ["cloud-course-project[test,release,static-code-qa]"]
 
 [build-system]
 # Minimum requirements for the build system to execute.
-requires = ["setuptools>=61.0.0", "wheel"]
+requires = ["setuptools>=78.0.2", "wheel"]
 build-backend = "setuptools.build_meta"
 
 # include more than only .py files in the distribution package (wheel)
